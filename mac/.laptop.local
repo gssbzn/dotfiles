@@ -1,0 +1,12 @@
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'brew-cask'
+brew_install_or_upgrade 'git-flow'
+
+brew cask install google-chrome
+brew cask install firefox
+brew cask install java
+brew cask install atom
+brew cask install virtualbox
+brew cask install dockertoolbox
+brew cask install vagrant
+brew cask install vlc
