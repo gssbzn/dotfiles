@@ -1,6 +1,7 @@
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'git-flow'
+brew_install_or_upgrade 'graphviz'
 
 brew cask install google-chrome
 brew cask install firefox
