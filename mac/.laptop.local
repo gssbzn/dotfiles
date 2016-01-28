@@ -1,6 +1,8 @@
 brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'memcached'
 brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'git-flow'
+brew_install_or_upgrade 'forego'
 brew_install_or_upgrade 'graphviz'
 
 brew cask install google-chrome
@@ -11,3 +13,4 @@ brew cask install virtualbox
 brew cask install dockertoolbox
 brew cask install vagrant
 brew cask install vlc
+brew cask install ngrok
